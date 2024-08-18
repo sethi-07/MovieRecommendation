@@ -14,7 +14,8 @@
 
 1. Clone or download this repository to your local machine:
    git clone https://github.com/yourusername/PopcornPicks)
-
+2. Download the datasets from: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+   
 ### API Key Setup
 1. Create an account on The Movie Database (TMDB).
 2. Click on the API link in the left-hand sidebar under your account settings.
@@ -31,11 +32,14 @@ Open your terminal or command prompt from your project directory.
 Run the command: streamlit run app.py
 Your application will start, and you can begin using PopcornPicks to find movie recommendations!
 
+### How Cosine Similarity works?
+Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+
 ### Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are welcome!
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Unlicense License - see the LICENSE file for details.
 
 ### Acknowledgements
 This project uses the TMDB API for movie data.
