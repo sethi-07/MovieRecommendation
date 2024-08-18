@@ -2,6 +2,9 @@
 
 **PopcornPicks** is a content-based recommender system that suggests movies similar to the ones you like. The system uses the TMDB (The Movie Database) API to fetch movie details and make recommendations.
 
+![image](https://github.com/user-attachments/assets/27672d10-02aa-4977-ba6e-32315b3e6703)
+
+
 ## Getting Started
 
 ### Prerequisites
